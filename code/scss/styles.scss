@@ -1,0 +1,311 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 250px;
+    background-image: url(../img/climb-3366663_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    #fond {
+        width: 100%;
+        display: block;
+    }
+
+    #titre {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        margin: 0;
+        font-family: Aclonica;
+        color: #fafbfb;
+
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin: 0;
+        font-family: Monotype Corsiva;
+        color: #f5d918;
+    }
+
+    .burger {
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 3%;
+    }
+
+    .burger span {
+        width: 100%;
+        height: 5px;
+        background-color:   #FF5733  ;
+        display: block;
+        position: absolute;
+        top: 100%;
+        transform: translateY(-50%);
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .burger span::before,
+    .burger span::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        min-height: 5px;
+        background-color: #f5d918;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .burger span::before {
+        transform: translateY(-10px);
+    }
+
+    .burger span::after {
+        transform: translateY(10px);
+
+    }
+
+    .burger.active span {
+        background-color: transparent;
+    }
+
+    .burger.active span::before {
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    .burger.active span::after {
+        transform: translateY(0px) rotate(-45deg);
+    }
+
+    .burger:hover span::after,
+    .burger:hover span::before {
+        background-color: #f7a13c;
+    }
+
+    .burger:hover span {
+        background-color: #7a4621;
+    }
+
+    .burger.active span {
+        background-color: transparent;
+    }
+
+
+    .icon {
+        fill: rgb(206, 28, 28);
+        cursor: pointer;
+
+    }
+
+    input,
+    .nav-menu,
+    .dropdown {
+        display: none;
+    }
+
+    [id^=btn]:checked+ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 0;
+    }
+
+    .nav-menu {
+        background: radial-gradient(closest-side, white, rgb(212, 211, 211));
+        align-items: center;
+
+    }
+
+    .nav-item a,
+    .drop-item a,
+    .show {
+        color: rgb(242, 28, 28);
+        font-size: 0.8rem;
+    }
+
+    .nav-menu a:hover,
+    .show:hover,
+    .icon:hover {
+        color: maroon;
+    }
+
+    .bit {
+        width: 20px;
+        position: absolute;
+        right: 34%;
+        top: 30%;
+        color: #70716f;
+    }
+
+    .link {
+        width: 100px;
+        position: absolute;
+        right: 1%;
+        top: 14%;
+        color: #70716f;
+    }
+
+    p {
+        width: 50%;
+        font-size: 0.3rem;
+        text-align: left;
+        margin-left: 16%;
+        position: absolute;
+        top: 66%;
+        color: #70716f;
+    }
+
+    #moi {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        right: 39px;
+        top: 81px;
+    }
+
+    #geek {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        left: 28%;
+    }
+}
+
+main {
+    #vert {
+        background-color:  #FF5733 ;
+    }
+
+    .diapo {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .elements {
+        display: flex;
+    }
+
+    .element {
+        width: 100%;
+        flex: 1 1 100%;
+        position: relative;
+        margin-top: 2%;
+    }
+
+    .element>img {
+        width: 80%;
+    }
+
+    #services {
+        background-color: #d9d9d9;
+        margin: 0;
+        text-align: center;
+        h1 {
+            margin: 0;
+            margin-bottom: 50px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .text {
+            width: 80%;
+            margin: auto;
+            background-image: url(/img/fontext.png);
+            padding: 10px;
+        }
+    }
+
+    #realisation {
+        background-image: url(/img/fondrea.png);
+        width: 100%;
+        text-align: center;
+        .text {
+            background-color: #09858a;
+            padding: 10px;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            padding-top: 23px;
+            color: white;
+
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+footer {
+    background-image: url(/img/fondfoot.png);
+    text-align: center;
+    position: relative;
+
+    #contact {
+        padding: 10px;
+
+        p {
+            margin: 0;
+            margin-left: 10%;
+            padding: 1px;
+            text-align: left;
+            color: white;
+        }
+
+        .bit2 {
+            width: 20px;
+            position: absolute;
+            color: #70716f;
+            left: 28%;
+            padding: 5px;
+        }
+
+        .link2 {
+            width: 100px;
+            position: absolute;
+            color: #70716f;
+            top: 26%;
+        }
+    }
+
+    #form {
+        h1 {
+            font-size: 1rem;
+            padding: 10px;
+            color: white;
+        }
+
+        #champ {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 10px;
+        }
+
+        input {
+            width: 80%;
+            background-color: #09858a;
+            margin: 10px;
+
+        }
+    }
+}
