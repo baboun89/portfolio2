@@ -9,16 +9,11 @@ body {
 
 header {
     position: relative;
-    height: 250px;
-    background-image: url(../img/climb-3366663_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/eyes.jpg);
 
+    img {
+        vertical-align: middle;
 
-
-    #fond {
-        width: 100%;
-        display: block;
     }
 
     #titre {
@@ -154,6 +149,7 @@ main {
     #vert {
         background-image: url(/img/eyes.jpg);
     }
+
     .elements {
         display: flex;
     }
@@ -173,6 +169,7 @@ main {
         background-image: url(/img/eyes.jpg);
         margin: 0;
         text-align: center;
+
         p {
             margin: 0;
         }
@@ -184,16 +181,18 @@ main {
             padding: 10px;
             border-radius: 10px;
         }
-        .prog{
+
+        .prog {
             background-image: url(../img/matrix-g870eb6eff_1920.jpg);
-            background-repeat: no-repeat,;
-            background-size: cover; 
+            background-repeat: no-repeat, ;
+            background-size: cover;
             color: white;
         }
-        .internet{
+
+        .internet {
             background-image: url(../img/software-gd67a2624c_1920.jpg);
-            background-repeat: no-repeat,;
-            background-size: cover; 
+            background-repeat: no-repeat, ;
+            background-size: cover;
             color: white;
         }
     }
@@ -202,6 +201,7 @@ main {
         background-image: url(/img/eyes.jpg);
         width: 100%;
         text-align: center;
+
         .text {
             padding: 10px;
         }
@@ -219,6 +219,8 @@ main {
 
 footer {
     background-image: url(/img/fondfoot.png);
+    background-repeat: no-repeat, ;
+    background-size: cover;
     text-align: center;
     position: relative;
 
@@ -271,3 +273,20 @@ footer {
         }
     }
 }
+
+// @media screen and (min-width: 400px) {
+//     header{
+//         height: 300px;
+
+//     }
+// }
+// @media screen and (min-width: 500px) {
+//     header{
+//         height: 410px;
+//     }
+// }
+// @media screen and (min-width: 600px) {
+//     header{
+//         height: 480px;
+//     }
+// }

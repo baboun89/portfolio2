@@ -8,15 +8,11 @@ body {
 
 header {
   position: relative;
-  height: 250px;
-  background-image: url(../img/climb-3366663_1920.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../img/eyes.jpg);
 }
 
-header #fond {
-  width: 100%;
-  display: block;
+header img {
+  vertical-align: middle;
 }
 
 header #titre {
@@ -231,6 +227,8 @@ main #realisation h2 {
 
 footer {
   background-image: url(/img/fondfoot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   position: relative;
 }
