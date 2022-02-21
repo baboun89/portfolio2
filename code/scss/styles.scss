@@ -127,9 +127,6 @@ header {
         bottom: 0;
         left: 35%;
         transform: translateX(-50%);
-        // display: grid;
-        // grid-template-columns: 1fr 1fr 1fr 1fr;
-        // padding-left: 0;
     }
 
     .nav-menu {
@@ -150,62 +147,13 @@ header {
     .icon:hover {
         color: maroon;
     }
-
-    // .bit {
-    //     width: 20px;
-    //     position: absolute;
-    //     right: 34%;
-    //     top: 30%;
-    //     color: #70716f;
-    // }
-
-    // .link {
-    //     width: 100px;
-    //     position: absolute;
-    //     right: 1%;
-    //     top: 14%;
-    //     color: #70716f;
-    // }
-
-    // p {
-    //     width: 50%;
-    //     font-size: 0.3rem;
-    //     text-align: left;
-    //     margin-left: 16%;
-    //     position: absolute;
-    //     top: 66%;
-    //     color: #70716f;
-    // }
-
-    // #moi {
-    //     position: absolute;
-    //     width: 60px;
-    //     height: 60px;
-    //     right: 39px;
-    //     top: 81px;
-    // }
-
-    // #geek {
-    //     position: absolute;
-    //     width: 100%;
-    //     height: 100%;
-    //     border-radius: 30px;
-    //     left: 28%;
-    // }
 }
 
 main {
-    background-image: url(/img/eyes.jpg);
 
     #vert {
         background-image: url(/img/eyes.jpg);
     }
-
-    // .diapo {
-    //     position: relative;
-    //     overflow: hidden;
-    // }
-
     .elements {
         display: flex;
     }
@@ -214,7 +162,7 @@ main {
         width: 100%;
         flex: 1 1 100%;
         position: relative;
-        margin-top: 2%;
+        margin: 2px;
     }
 
     .element>img {
@@ -222,17 +170,9 @@ main {
     }
 
     #services {
-        background-color: #d9d9d9;
-        background-image: url(../img/fondeyes.png);
-        background-repeat: no-repeat,;
-        background-size: contain; 
+        background-image: url(/img/eyes.jpg);
         margin: 0;
         text-align: center;
-
-        h1 {
-            margin: 60px 0 50px 0;
-        }
-
         p {
             margin: 0;
         }
@@ -249,7 +189,6 @@ main {
             background-repeat: no-repeat,;
             background-size: cover; 
             color: white;
-     
         }
         .internet{
             background-image: url(../img/software-gd67a2624c_1920.jpg);
@@ -264,16 +203,12 @@ main {
         width: 100%;
         text-align: center;
         .text {
-            // background-color: #09858a;
             padding: 10px;
-            // color: white;
         }
 
         h1 {
             margin: 0;
             padding-top: 23px;
-            // color: white;
-
         }
 
         h2 {

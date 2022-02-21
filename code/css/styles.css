@@ -155,10 +155,6 @@ header .icon:hover {
   color: maroon;
 }
 
-main {
-  background-image: url(/img/eyes.jpg);
-}
-
 main #vert {
   background-image: url(/img/eyes.jpg);
 }
@@ -175,7 +171,7 @@ main .element {
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
   position: relative;
-  margin-top: 2%;
+  margin: 2px;
 }
 
 main .element > img {
@@ -183,16 +179,9 @@ main .element > img {
 }
 
 main #services {
-  background-color: #d9d9d9;
-  background-image: url(../img/fondeyes.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url(/img/eyes.jpg);
   margin: 0;
   text-align: center;
-}
-
-main #services h1 {
-  margin: 60px 0 50px 0;
 }
 
 main #services p {
