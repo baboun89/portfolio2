@@ -197,6 +197,8 @@ main #services .prog {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main #services .internet {
